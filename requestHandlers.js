@@ -6,6 +6,7 @@ function start(response){
 	console.log("Request start.")
 	var body = '<html>'+
     '<head>'+
+    '<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>'+
     '<meta http-equiv="Content-Type" content="text/html; '+
     'charset=UTF-8" />'+
 	'<style>*{margin:0px;padding:0px}'+
@@ -21,6 +22,7 @@ function start(response){
 	'</style>'+
     '</head>'+
     '<body>'+
+    '<div style="margin:0 auto;position:relative;text-align:center;width:300px;height:400px;border:solid 2px red;"><img src="/show" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);max-width:300px;max-height:400px;"/></div>'+
     '<form action="/upload" enctype="multipart/form-data" method="post">'+
 	'<a href="javascript:;" class="a-upload">'+
     '<input type="file" name="upload" value="choose file">Choose'+
@@ -64,6 +66,7 @@ function upload(response,request){
 					'<head>'+
 					'<meta http-equiv="Content-Type" content="text/html; '+
 					'charset=UTF-8" />'+
+                                        '<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>'+
 					'<style>*{margin:0px;padding:0px;text-align:center;border-radius:3px;}'+
 					'input{'+
 					'width:80px;height:30px'+
