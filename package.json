@@ -1,7 +1,7 @@
 {
-  "name": "nodejs picsee",
+  "name": "nodejs-picsee",
   "version": "1.0.0",
-  "description": "nodejs picse",
+  "description": "nodejs-picsee",
   "main": "index.js",
   "dependencies": {
     "formidable": "^1.1.1"
@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "keywords": [
     "nodejs",
